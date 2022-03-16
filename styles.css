@@ -1,0 +1,241 @@
+/* ========= Globals ============ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ========= Header ========= */
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 86px;
+    height: auto; 
+    margin-bottom: 20px;
+}
+
+h1{
+    font-weight: 700;
+    color: #fffcf9;
+    margin-bottom: 20px;
+}
+
+/* ========== Main ==============*/
+
+.movie{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    padding: 25px 0;
+    width: 650px;
+
+}
+
+.poster{
+    width: 140px;
+    height: auto;
+}
+
+.title-and-description{
+    width: 500px;
+    color: #fffcf9;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.description{
+    font-weight: 400;
+    line-height: 18px;
+}
+
+button{
+    background-color: #e9e6e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+button img{
+    width: 36px;
+}
+
+button span{
+    font-weight: 700;
+}
+
+.find-movie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.find-movie>p{
+    color: #b3b3b3;
+    width: 380px;
+    text-align: center;
+    line-height: 21px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* =========== Responsive ============= */
+
+@media (max-width: 480px){
+
+    header{
+        width: 100vw;
+        font-size: 10px;
+        padding: 8px 0;
+    }
+
+    header>img{
+        width: 50px;
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    header>h1{
+        margin-bottom: 0;
+    }
+
+    .movie{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8px;
+        padding-bottom: 0;
+    }
+
+    .poster{
+        width: 100px;
+        height: auto;
+    }
+
+    .title-and-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title{
+        font-size: 15px;
+        padding: 2px 0;
+    }
+
+    .description{
+        width: 300px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    button{
+        margin-bottom: 8px;
+        margin-top: 6px;
+    }
+
+    .find-movie{
+        padding: 8px 0;
+    }
+
+    .find-movie>p{
+        width: 300px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+
+    header>img{
+        width: 50px;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    header{
+        width: 100vw;
+        font-size: 10px;
+        padding-top: 8px;
+        padding-bottom: 13px;
+    }
+    
+    header>h1{
+        margin-bottom: 0;
+    }
+
+    .movie{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8px;
+        padding-bottom: 0;
+    }
+
+    .title-and-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .title{
+        font-size: 15px;
+        padding: 2px 0;
+    }
+
+    .poster{
+        width: 100px;
+        height: auto;
+    }
+    .description{
+        width: 420px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .find-movie{
+        padding-top: 25px;
+    }
+
+    .find-movie>p{
+        width: 300px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    button{
+        margin-bottom: 8px;
+        margin-top: 6px;
+    }
+
+}
