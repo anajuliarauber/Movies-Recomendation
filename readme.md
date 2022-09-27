@@ -22,10 +22,10 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop screenshot ![](./assets/images/desktop2.png)
-Desktop screenshot ![](./assets/images/desktop1.png)
-Phone screenshot ![](./assets/images/phone1.png)
-Phone screenshot ![](./assets/images/phone2.png)
+![](./assets/images/desktop2.png)
+![](./assets/images/desktop1.png)
+<img src="./assets/images/phone1.png"  width="400"/>
+<img src="././assets/images/phone2.png"  width="400"/>
 
 
 ## My process
